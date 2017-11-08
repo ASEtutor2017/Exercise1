@@ -1,8 +1,18 @@
 
 public class HelloUser {
-
-		public static void greetUser(String name)
+	
+	
+	private String name;
+	
+	public HelloUser(String pname)
 	{
+		name=pname;
+	}
+	
+
+		public void greetUser()
+	{
+			
 			System.out.println("Hello  "+name);
 	}
 
